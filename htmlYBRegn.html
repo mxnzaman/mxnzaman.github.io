@@ -1,0 +1,37 @@
+﻿<DOCTYPE html>
+<html>
+<title> PageRegistration</title>
+<head>
+<link rel='stylesheet' href='cssYBMenu.css'>
+
+<script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js'></script>
+
+</head>
+
+<body ng-app=''>
+
+<div ng-include='htmlYBMenu.html'></div>
+
+<h1 id='regnh1' style='margin-left:30%;'>THIS PAGE IS UNDER CONSTRUCTION!</h1>
+<div  style='width:500px; height:180px; margin-left:33%; margin-top:5%; background-color:powderblue;padding:10px;border:3px solid orange;'>
+<form id='regn' name='regn' action='phpYBRegnCpy.php' method='post'>
+<fieldset id="regnfs">
+<legend>Profile:</legend>
+
+First Name : <input type='text' name='fname' id='txt01'style='margin-left:10px; margin-top:5px;'></input><br>
+
+Last Name : <input type='text' name='lname' id='txt02' style='margin-left:12px; margin-top:5px;'></input><br>
+
+User Id : <input type='text' name='uid' id='txt05' style='margin-left:34px; margin-top:5px;'></input><br>
+
+Password : <input type='password' name='pword' id='txt06' style='margin-left:20px; margin-top:5px;'></input><br>
+
+
+<button type='submit' id='btn01' name='Submit' style='margin-top:10px; margin-left:45%;'>Submit</button>
+</fieldset>
+</form>
+</div>
+
+</body>
+
+</html>

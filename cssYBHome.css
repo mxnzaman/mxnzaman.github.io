@@ -1,0 +1,36 @@
+﻿#heading {
+	background-color:rgb(125,125,0);
+	text-align:center;
+	color:white;
+	width:24%;
+	margin-left:38%;
+	padding:10px;
+
+	}
+body {
+	background-color:rgb(240,240,255);
+	}
+#intro {
+	background-color:powderblue;
+	margin-left:25%;
+	width:50%;
+	height:150px;
+	border:2px solid orange;
+	}
+#log {
+	background-color:powderblue;
+	margin-left:25%;
+	margin-top:50px;
+	width:50%;
+	height:150px;
+	border:2px solid orange;
+	}
+#regnh1 {
+	text-align:center;
+}
+
+#regnfs {
+	width:400px;
+	margin-left:33%;
+	margin-top:80px;
+}

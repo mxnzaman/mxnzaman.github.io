@@ -1,0 +1,56 @@
+﻿
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+<title>Year Book Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="cssYBHome.css">
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+
+<script>
+function loadRegnForm() {
+window.open("htmlYBRegn.html");
+}
+</script>
+
+
+</head>
+
+<body ng-app="">
+
+<div ng-include="'htmlYBMenu.html'"></div>
+
+
+<h2 id="heading">Welcome to your Year Book!</h2>
+<div id="intro">
+<h2 name='construction' id='con' style='text-align:center;'>This division is under construction!</h2>
+</div>
+<div id="log">
+
+<form id="YBForm" action="phpYBMyCpy.php" method="post">
+
+<span style="margin-left:50px;">
+User Name:<input type="text" id="userID" name="UId" style="margin-top:10px;"></input>
+</span>
+
+<span style="margin-left:50px;">
+Password:<input type="password" id="pass" name="pw" style="margin-left:10px; margin-top:10px;"></input>
+</span>
+
+<span style="margin-left:50px;">
+<button type="submit" id="sub1" name="logSub" style="margin-left:250px; margin-top:10px;">Login</button>
+</span>
+</form>
+
+<span>
+<h4 style="margin-left:100px;">
+*New to the site? Please register here:<button type="button" id="reg" name="Register" onclick="loadRegnForm()">Register</button></h4>
+</span>
+</div>
+
+</body>
+
+</html>
