@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Page for Github.io</title>
+<style>
+#h {
+	margin-left:28%;
+	width:45%;
+	background-color:gray;
+	color:white;
+	border:2px solid orange;
+}
+#div1 {
+	margin-left:28%;
+	background-color:cayon;
+	width:45%;
+}
+</style>
+<script>
+function getName() {
+var n=document.getElementById('txt1').value;
+document.getElementById('p1').innerHTML="You entered " + n; 
+}
+</script>
+</head>
+
+<body>
+
+<h1 id='h'>https://github.com/mxnzaman/mxnzaman.github.io</h1>
+<div id='div1'>
+Enter Name :<input type='text' id='txt1'></input></br>
+<button id='btn1' onclick='getName()'>Click for Name</button>
+
+</div>
+<p id='p1' style='margin-left:28%;'></p>
+
+</body>
+<html>
